@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dhurjati&family=Nova+Square&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pomodoro</title>
+  </head>
+  <body class="em-foco">
+    <div class="container-filho">
+      <div style="display: flex; align-items: center; justify-content: center">
+        <img
+          src="images/pomodoro.png"
+          alt="logo"
+          width="60"
+          height="60"
+          id="logo"
+        />
+        <h1
+          style="
+            margin-left: 10px;
+            color: white;
+            text-align: center;
+            font-family: 'Dhurjati', sans-serif;
+          "
+        >
+          Pomodoro Time
+        </h1>
+      </div>
+      <div>
+        <h4 id="Frases">
+          "Nada lhe pertence mais que seus sonhos" - Nietzsche
+        </h4>
+      </div>
+      <div id="botao">
+        <button onclick="contorolarTime(1)" class="button">Iniciar Ciclo</button>
+        <button onclick="contorolarTime(2)"  class="button">Pausa para o cafezin</button>
+        <button onclick="contorolarTime(3)"  class="button">Pausa para o cigarrin</button>
+      </div>
+      <br />
+      <div
+        id="tempo"
+        style="
+          margin-left: 10px;
+          color: white;
+          text-align: center;
+          font-family: 'Dhurjati', sans-serif;
+          font-weight: 700;
+          font-size: 35px;
+        "
+      >
+        00:00
+      </div>
+    </div>
+
+    <script src="js/action.js"></script>
+  </body>
+</html>

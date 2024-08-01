@@ -1,0 +1,107 @@
+
+body{
+position: relative;
+height: 98vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.em-foco{
+background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-repeat: no-repeat;
+}
+
+.pausa-curta{
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pausa-cigarrin{
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+#Frases{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+    width: 600px;
+    max-width: 600px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:#3E5151;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+  }
+  
+  .button:hover {
+    background: #F0F2F0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    
+}
+  
+  .button:active {
+    box-shadow: 0 5px rgba(0, 0, 0, 0.247);
+    transform: translateY(4px);
+  }
+
+  @media only screen and (max-width: 600px) {
+    #botao{
+      display: flex;
+      flex-direction: column;
+    }
+    .button{
+      display: inline-block;
+      width: 350px;
+      margin: auto;
+      margin-top: 20px;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color:#3E5151;
+      background: #ECE9E6;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      font-family: 'Dhurjati', sans-serif;
+      font-family: 'Nova Square', sans-serif;
+    }
+
+    #Frases{
+      text-align: center;
+      color: white;
+      font-weight: 700;
+      font-size: 25px;
+      font-family: 'Dhurjati', sans-serif;
+      font-family: 'Nova Square', sans-serif;
+      width: 350px;
+      max-width: 350px;
+  }
+  }
